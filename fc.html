@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Weather Forecast Daily</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="fc.css" media="screen">
+	<script type="text/javascript" src="fc.js"></script>
+	<link rel="icon" href="forecast.png">
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.js"></script>
+<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.css"/>
+
+<body onLoad="default_(); pop_up();">
+	
+	<div class="logo">
+		<p id="logo">weather</br>forecast</p>
+		<img id="forecast-img" src="forecast.png" alt="">
+		<h1 id="host-title">Weather forecasts for tons of locations around the world</h1>
+	</div>
+	<div class="line"></div>
+	<div class="frame" style="background-color: #fff">
+		<img id="icon"></img>
+		<span id="date">Today</span>
+		<p id="sky"></p>
+		<p id="temp"></p>
+		<div class="buttons">
+			<button type="submit" id="cels">&deg;C</button>
+			<button type="submit" id="fahr">&deg;F</button>
+		</div>
+		<div>
+			<p id="city" class="intro"></p>
+			<p id="description" class="intro"></p>
+		</div>
+	</div>
+	<div class="search-field">
+		<input list="info" type="search" placeholder="Enter a city..."id="c-search" value="">
+
+		<datalist id="info">
+  		</datalist>
+	</div>
+	<div class="line"></div>
+	<footer id="copyright" style="background-color: #fff">&copy;Faancy_Chiild_weather</footer>
+</body>
+</html>

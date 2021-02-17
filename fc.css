@@ -1,0 +1,135 @@
+body{
+	background-color: #000;
+	font-family: 'Baloo Chettan 2', cursive;
+	margin: 0;
+	padding: 0;
+}
+.line{
+	height: 7vw;
+	margin: 1vw 0;
+	background-color: #9DB5C6;
+}
+p{
+	display: inline-block;
+}
+.logo{
+	position: relative;
+}
+#logo{
+	text-transform: capitalize;
+	padding: 3px;
+	border: 2px double black;
+	border-left: 4px solid red;
+	background: white;
+	display: inline-block;
+	margin: 0;
+	
+}
+#forecast-img{
+	display: inline-block;
+	width: 70px;
+	margin: 2px;
+	padding: 2px;
+}
+h1{
+	display: inline-block;
+	font-family: 'Major Mono Display';
+	font-size: 1em;
+	left: 3vw;
+	border-left: 4px solid red;
+	padding: 0.5em;
+	margin: 0 5vw;
+	background-color: white;
+
+}
+.intro{
+border-radius: 10px;
+background-color: white;
+}
+#city{
+	background-color: #fff; 
+	padding: 7px 10px; 
+	border-radius: 20px;
+}
+#description{
+	background-color: #73ADC9; 
+	padding: 7px; 
+	border-radius: 20px;
+}
+#icon{
+	border-radius: 10px;
+	background-color: #73ADC8;
+}
+.search-field{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR05Nhu2LQIUbNAt_h5KehOF1shab5_ocv8rA&usqp=CAU");
+	display: inline-block;
+	position: relative;
+	margin: 2vw;
+	padding: 4vw 2vw;
+	left: 10vw;
+	top: 2vw;
+	height: 100%;
+
+}
+.frame{
+	display: inline-block;
+	position: relative;
+	margin: 2vw;
+	padding: 2vw;
+	left: 10vw;
+	top: 2vw;
+
+}
+.intro{
+	display: inline-block;
+	margin: 1em;
+	padding: 1em;
+	
+}
+#sky{
+	font-size: 1.5em;
+	display: inline-block;
+	position: absolute;
+}
+.intro{
+	margin: 0;
+}
+#date{
+	position: absolute;
+}
+#c-search{
+	padding: 10px 40px;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+}
+.buttons{
+	display: inline-block;
+	position: relative;
+	
+}
+button{
+	border: 2px solid red;
+	padding: 5px 10px;
+	margin: 0 0.5vw;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+}
+button:hover{
+	box-shadow: 1px 1px 7px #73ADC8;
+}
+#icon:hover{
+	transform: translate(-5px, -5px) scale(1.1);
+}
+datalist{
+	overflow: scroll;
+}
+#copyright{
+	display: block;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+
+}

@@ -1,0 +1,10 @@
+@media(max-width: 600px){
+	#description{
+		display: block;
+	}
+}
+@media(max-width: 360px){
+	#c-search{
+		padding: 5px 10px;
+	}
+}
